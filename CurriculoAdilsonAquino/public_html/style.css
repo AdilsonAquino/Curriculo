@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*resetando css*/
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header h1{
+    font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 1.5em;
+}
+header{
+    padding: 1.2em;
+    text-align: center;
+    background: #4E5861;
+    color: white;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+#links{
+    flex: 1;
+}
+#links a{
+    font-family: 'Roboto Slab', serif;
+    padding: 1em;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1.5s;
+}
+#links a:hover{
+    color: #6b6767;
+}
+/*deixando a foto redonda*/
+#fotoAdilson{
+    border-radius: 12em;
+}
+.itemfotoELink a{
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.itemfotoELink img{
+    padding: 2em;
+}
+#fotoELink{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1.5em;
+}
+#meio{
+      display: flex;
+      flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 2em auto;
+}
+
+#info h2{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+#info2 h2{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+#info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+  flex: 1;
+  
+    text-align: justify;
+    
+}
+#dadosPessoais{
+    margin: 2em;
+    padding: 2em;
+    color: #4E5861;
+    background: #F5E3AE;
+    border-radius: 60px;
+}
+#sobreMim{
+    margin: 2em;
+    padding: 6.47em 2em;
+    color: #4E5861;
+    background: #F5E3AE;
+    border-radius: 60px;
+}
+#escolaridade{
+    margin: 2em;
+    padding: 2em;
+    color: #4E5861;
+    background: #F5E3AE;
+    border-radius: 60px;
+}
+#info2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    align-items: center;
+    flex: 1;
+    text-align: justify;
+   
+}
+#Cursos{
+    margin: 2em;
+    padding: 2em;
+    color: #4E5861;
+    background: #F5E3AE;
+    border-radius: 60px;
+}
+#expPro{
+    margin: 2em;
+    padding: 1.80em 2em;
+    color: #4E5861;
+    background: #F5E3AE;
+    border-radius: 60px;
+}
+footer{
+    padding: 0.75em;
+    background: #4E5861;
+    text-align: center;
+    color: white;
+    font-size: 1.30em;
+}
+@media (max-width:500px) {
+    header h1{
+        font-size: 1.5em;
+        padding-bottom: 0.25em;
+    }
+    #fotoELink p{
+        display: none;
+    }
+    #sobreMim{
+        
+        padding: 1em 2em
+    }
+    #links{
+        display: flex;
+        flex-direction: column;
+    }
+    #links a{
+        padding: 0.25em;
+    }
+    #sobreMim{
+        text-align: center;
+        margin: 0.5em;
+    }
+    #Cursos{
+        text-align: center;
+        margin: 0.5em;
+    }
+    #escolaridade{
+        text-align: center;
+        margin: 0.5em;
+    }
+    #dadosPessoais{
+        text-align: center;
+        margin: 0.5em;
+    }
+    #expPro{
+        text-align: center;
+        margin: 0.5em;
+    }
+    #info{
+        font-size: 1.12em;
+    }
+    #info2{
+        font-size: 1.12em;
+    }
+}
